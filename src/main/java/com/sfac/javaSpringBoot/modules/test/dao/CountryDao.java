@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 @Mapper
+//
 public interface CountryDao {
     @Select("select * from m_country where country_id=#{countryId}")
     @Results(id = "countryResults", value = {
@@ -19,7 +20,7 @@ public interface CountryDao {
     })
     Country getCountryById(int countryId);
 
-
+      //
     @Select("select * from m_country where country_name = #{countryName}")
     @ResultMap(value = "countryResults")
     Country getCountryByName(String countryName);
