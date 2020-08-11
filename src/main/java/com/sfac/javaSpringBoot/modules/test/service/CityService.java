@@ -9,5 +9,6 @@ import java.util.List;
 public interface CityService {
     List<City> getCitiesById(int countryId);
 
+
     PageInfo<City> cityByVo(int countryId,SearchVo searchVo);
 }

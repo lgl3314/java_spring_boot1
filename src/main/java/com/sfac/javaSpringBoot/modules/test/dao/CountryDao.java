@@ -21,6 +21,7 @@ public interface CountryDao {
     Country getCountryById(int countryId);
 
 
+
     @Select("select * from m_country where country_name = #{countryName}")
     @ResultMap(value = "countryResults")
     Country getCountryByName(String countryName);
