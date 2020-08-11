@@ -13,5 +13,4 @@ import java.util.List;
 public interface CityDao {
     @Select("select * from m_city where country_id = #{countryId}")
     List<City> getCitiesById(int countryId);
-
 }

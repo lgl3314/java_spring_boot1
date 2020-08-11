@@ -8,13 +8,11 @@ public class SearchVo {
 
 	public final static int DEFAULT_CURRENT_PAGE = 1;
 	public final static int DEFAULT_PAGE_SIZE = 5;
-	
 	private int currentPage;
 	private int pageSize;
 	private String keyWord;
 	private String orderBy;
 	private String sort;
-
 
 	public void initSearchVo() {
 		if (this != null) {

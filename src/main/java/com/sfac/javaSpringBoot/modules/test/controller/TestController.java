@@ -25,8 +25,6 @@ public class TestController {
         return "这是一个很牛的软件。";
     }
 
-
-
     @Value("${server.port}")
     private int port;
 

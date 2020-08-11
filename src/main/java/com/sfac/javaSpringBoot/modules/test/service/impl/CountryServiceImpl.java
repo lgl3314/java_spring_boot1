@@ -17,7 +17,6 @@ public class CountryServiceImpl implements CountryService {
 
         return countryDao.getCountryById(countryId);
     }
-
     @Override
     public Country getCountryByName(String countryName) {
         return countryDao.getCountryByName(countryName);
