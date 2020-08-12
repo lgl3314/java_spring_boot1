@@ -3,7 +3,6 @@ package com.sfac.javaSpringBoot.modules.test.dao;
 import com.sfac.javaSpringBoot.modules.test.entity.Country;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository

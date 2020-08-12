@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.sql.SQLOutput;
 import java.util.List;
 
+
 @Repository
 @Mapper
 public interface CityDao {
